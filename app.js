@@ -10,7 +10,7 @@ const { isAuthenticated } = require('./config/middleware');
 // Import routes
 const authRoutes = require('./routes/authRoutes');
 const firRoutes = require('./routes/firRoutes');
-const appointmentRoutes = require('./routes/appointmentRoutes');
+const appointmentRoutes = require('./routes/appointmentRoutes');  
 const feedbackRoutes = require('./routes/feedbackRoutes');
 
 const app = express();
