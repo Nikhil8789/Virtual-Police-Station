@@ -5,7 +5,7 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo');
 const path = require('path');
 const expressLayouts = require('express-ejs-layouts');
-const { isAuthenticated } = require('./config/middleware');
+const { isAuthenticated } = require('./config/middleware');  
 
 // Import routes
 const authRoutes = require('./routes/authRoutes');
